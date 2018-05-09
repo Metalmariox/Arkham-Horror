@@ -1,6 +1,6 @@
 from main2.maindatabase.static_p_database import StaticPDatabase
-from main2.maindatabase.mainCardObjects.asset import Asset
-from main2.maindatabase.pCard import PlayerCard
+import random
+
 class Deck:
 
     def __init__(self):
@@ -13,7 +13,7 @@ class Deck:
     def generate_deck(self):
         x = 0
         while (x < 5):
-            new_card = self.database.copy_cards(".45 Automatic")
+            new_card = self.database.copy_cards("Physical Training")
             self.deck.append(new_card)
             x = x + 1
 

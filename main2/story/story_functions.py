@@ -9,20 +9,21 @@ def print_wait(text):
 def check_campaign_title(campaigns):
     print_wait("Which campaign would you like to play?")
     print_wait("\n".join(campaigns))
-    selection = input()
+    selection = input().lower()
     flag = 0
     while flag == 0:
-        if selection.lower() == 'night' or selection.lower() == 'zealot' or selection.lower() == 'night of the zealot':
+        if selection == 'night' or selection == 'zealot' or selection == 'night of the zealot':
             print_wait('Do you want to play the Night of the Living Zealot?')
             choice = input().lower()
             if choice == 'y' or choice == 'yes' or choice == 'ye':
                 return 'zealot'
             elif choice == 'n' or choice == 'no':
-                flag = 1
                 check_campaign_title(campaigns)
             else:
                 print_wait("I don't understand that selection.")
-        elif choice == 'test':
+        elif selection == 'test':
+            print_wait("Would you like to go into the testing area?")
+            choice = input().lower()
             return 'test'
 
         else:

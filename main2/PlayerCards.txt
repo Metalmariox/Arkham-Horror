@@ -8,6 +8,7 @@ Cost 4
 Pips DEX
 Text >> Spend 1 ammo: Fight.  You get +1 STR for this attack.  This attack deals +1 damage.
 Flavor "Ol reliable.  She has been with me through everything, good and bad."
+Ref .45 Automatic, .45, Automatic, Auto
 Name Physical Training
 Level 0
 Class Guardian
@@ -18,3 +19,4 @@ Cost 2
 Pips WIS STR
 Text ->-> Spend 1 Resource: You get +1 STR for this skill test. \n->-> Spend 1 Resource: You get +1 WIS for this skill test.
 Flavor "Through months of harsh training, your body and mind are tough as steel."
+Ref Physical Training, Physical, Training
