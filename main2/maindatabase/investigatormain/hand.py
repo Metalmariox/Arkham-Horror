@@ -1,5 +1,7 @@
 from main2.maindatabase.investigatormain.deck import Deck
 from main2.story.story_functions import *
+from main2.story.printing import *
+
 class Hand:
     def __init__(self, deck):
         self.deck = deck

@@ -13,7 +13,7 @@ class Deck:
     def generate_deck(self):
         x = 0
         while (x < 5):
-            new_card = self.database.copy_cards("Physical Training")
+            new_card = self.database.copy_cards("45 Automatic")
             self.deck.append(new_card)
             x = x + 1
 

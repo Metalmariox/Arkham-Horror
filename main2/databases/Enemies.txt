@@ -1,0 +1,8 @@
+Name Ghoul Minion
+Str 2
+Hp 2
+Dex 2
+Tags Humanoid Monster Ghoul
+Damage 1
+SanityDmg 1
+Flavor It was a colossal and nameless blasphemy with glaring red eyes, and it held in bony claws a thing that had once been a man, gnawing at the head as a child nibbles at a stick of candy. - H.P. Lovecraft, "Pickman's Model"

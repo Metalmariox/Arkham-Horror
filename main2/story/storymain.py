@@ -1,4 +1,5 @@
 from main2.story.story_functions import *
+from main2.story.printing import *
 from main2.story.testing import Testing
 
 class Story:

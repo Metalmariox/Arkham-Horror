@@ -1,5 +1,6 @@
 from main2.maindatabase.mainCardObjects.cardMethods import *
 from main2.story.story_functions import *
+from main2.story.printing import *
 
 class PlayerCard:
     def __init__(self, c_name, c_class, c_level, c_type, c_slot, c_traits, c_cost, c_pips, c_text, c_flavor, c_ref):
